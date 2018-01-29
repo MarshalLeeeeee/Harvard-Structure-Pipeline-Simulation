@@ -1,0 +1,41 @@
+Running: D:\xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/test_for_top_isim_beh.exe -prj F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/test_for_top_beh.prj work.test_for_top work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/TimeDv.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/ProgramCounter.v" into library work
+WARNING:HDLCompiler:568 - "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/ProgramCounter.v" Line 50: Constant value is truncated to fit in <8> bits.
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/Mux1.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/instruction_memory.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab4/signext/signext.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab4/register/register.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab4/data_momory/data_memory.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab3/Ctr/Ctr.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab3/AluCtr/AluCtr.v" into library work
+WARNING:HDLCompiler:751 - "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab3/AluCtr/AluCtr.v" Line 28: Redeclaration of ansi port aluCtr is not allowed
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/../../lab3/Alu/Alu.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/top.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/test_for_top.v" into library work
+Analyzing Verilog file "D:/xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Ctr
+Compiling module Alu
+Compiling module Mux1
+Compiling module AluCtr
+Compiling module signext
+Compiling module register
+Compiling module data_memory
+Compiling module ProgramCounter
+Compiling module Instruction_memory
+Compiling module TimeDv
+Compiling module top
+Compiling module test_for_top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab5/lab5/test_for_top_isim_beh.exe
+Fuse Memory Usage: 30324 KB
+Fuse CPU Usage: 873 ms
