@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Wed Feb 22 08:21:42 2017
+
+drc -z led.ncd led.pcf
+
+DRC detected 0 errors and 0 warnings.
