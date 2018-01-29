@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab6/lab6/test_for_top_isim_beh.exe" -prj "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab6/lab6/test_for_top_beh.prj" "work.test_for_top" "work.glbl" 
