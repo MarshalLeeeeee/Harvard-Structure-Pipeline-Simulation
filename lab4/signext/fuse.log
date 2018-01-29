@@ -1,0 +1,19 @@
+Running: D:\xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab4/signext/test_for_signext_isim_beh.exe -prj F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab4/signext/test_for_signext_beh.prj work.test_for_signext work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab4/signext/signext.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab4/signext/test_for_signext.v" into library work
+Analyzing Verilog file "D:/xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module signext
+Compiling module test_for_signext
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab4/signext/test_for_signext_isim_beh.exe
+Fuse Memory Usage: 29564 KB
+Fuse CPU Usage: 733 ms

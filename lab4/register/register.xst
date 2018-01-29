@@ -1,0 +1,5 @@
+set -tmpdir "E:/lmc/lab4/register/xst/projnav.tmp"
+set -xsthdpdir "E:/lmc/lab4/register/xst"
+elaborate
+-ifn register.prj
+-ifmt mixed
