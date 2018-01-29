@@ -1,0 +1,19 @@
+Running: D:\xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab2/counter/countert_isim_beh.exe -prj F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab2/counter/countert_beh.prj work.countert work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab2/counter/counter.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab2/counter/countert.v" into library work
+Analyzing Verilog file "D:/xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module timerDivider
+Compiling module counter
+Compiling module countert
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab2/counter/countert_isim_beh.exe
+Fuse Memory Usage: 29584 KB
+Fuse CPU Usage: 748 ms
