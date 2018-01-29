@@ -1,0 +1,19 @@
+Running: D:\xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/test_for_Ctr_isim_beh.exe -prj F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/test_for_Ctr_beh.prj work.test_for_Ctr work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/Ctr.v" into library work
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/test_for_Ctr.v" into library work
+Analyzing Verilog file "D:/xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/test_for_Ctr.v" Line 42: Port reset is not connected to this instance
+Completed static elaboration
+Compiling module Ctr
+Compiling module test_for_Ctr
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/Ctr/test_for_Ctr_isim_beh.exe
+Fuse Memory Usage: 29620 KB
+Fuse CPU Usage: 795 ms

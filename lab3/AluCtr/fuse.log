@@ -1,0 +1,20 @@
+Running: D:\xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/test_for_aluCtr_isim_beh.exe -prj F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/test_for_aluCtr_beh.prj work.test_for_aluCtr work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/AluCtr.v" into library work
+WARNING:HDLCompiler:751 - "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/AluCtr.v" Line 28: Redeclaration of ansi port aluCtr is not allowed
+Analyzing Verilog file "F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/test_for_aluCtr.v" into library work
+Analyzing Verilog file "D:/xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AluCtr
+Compiling module test_for_aluCtr
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable F:/document/SJTU/course/computer_architecture/experiment/workshop/lmc/lab3/AluCtr/test_for_aluCtr_isim_beh.exe
+Fuse Memory Usage: 29684 KB
+Fuse CPU Usage: 779 ms
